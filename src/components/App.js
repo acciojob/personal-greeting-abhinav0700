@@ -9,7 +9,7 @@ const App = () => {
       <label htmlFor="name">Enter your Name : </label>
       <br />
       <input type="text" placeholder="Enter your name" id="name" onChange={(e)=>setName(e.target.value)}/>
-     {name && <p>Hello {name}</p>}
+     {name && <p>Hello {name}!</p>}
     </div>
   )
 }
